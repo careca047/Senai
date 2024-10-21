@@ -1,14 +1,3 @@
-body {
-    background-color: #060030;
-    font-family: sans-serif;
-    .botoesdelogin {
-        background-color: black;
-        color: white;
-        padding: auto;
-        border-radius: 8px;
-    }
-}
-
 /*
 perguntar pro Carmona o que fazer primeiro, editar o fundo da pagina, ou montar o layout
 verificar como edito, a largura da cor do fundo em um local especifico
