@@ -1,26 +1,19 @@
+/*
+como fazer espaços específicos do background terem cores diferentes (container?)
+verificar como posicionar as imagens no fundo
+
+proximos passos:
+montar o menu hamburguer em cima do logo da game mania
+terminar os botoes do carrossel
+modificar os botoes de login pq do jeito que ta nao vai dar certo
+*/
+
+
+
 body {
     background-color: antiquewhite;
     color: black;
     font-family: sans-serif;
-
-    .botoesdelogin {
-        font-family: sans-serif;
-        width: fit-content;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin: 0;
-        padding: 5px;
-        gap: 4px;
-    }
-    .barra_pesquisa {
-        border: 8px;
-        border-radius: 20px;
-    }
-    ::placeholder {
-        background-color: antiquewhite;
-        color: black;
-    }
     a {
         color: black;
         text-decoration: none;
@@ -79,6 +72,26 @@ body {
         align-items: center;
         left: 50%;
     }
+    header {
+        .botaodelogin button {
+            font-family: sans-serif;
+            width: fit-content;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0;
+            padding: 5px;
+            gap: 4px;
+        }
+        .barra_pesquisa {
+            border: 8px;
+            border-radius: 20px;
+        }
+        ::placeholder {
+            background-color: antiquewhite;
+            color: black;
+        }
+    }
 }
 .container {
     position: absolute;
@@ -87,12 +100,3 @@ body {
     outline: none;
     gap: 0;
 }
-/*
-como fazer espaços específicos do background terem cores diferentes (container?)
-verificar como posicionar as imagens no fundo
-
-proximos passos:
-montar o menu hamburguer em cima do logo da game mania
-terminar os botoes do carrossel
-modificar os botoes de login pq do jeito que ta nao vai dar certo
-*/
