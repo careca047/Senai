@@ -74,6 +74,18 @@ body {
     .next {             /* botao pra direita */
         right: 150px; 
     }
+    .container {
+        position: absolute;
+        align-items: center;
+        left: 50%;
+    }
+}
+.container {
+    position: absolute;
+    height: 50%;
+    width: 50%;
+    outline: none;
+    gap: 0;
 }
 /*
 como fazer espaços específicos do background terem cores diferentes (container?)
