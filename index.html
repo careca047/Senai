@@ -8,11 +8,14 @@
 </head>
 <body>
     <header>
-        <section id="area de login"> <!--parte reservada para os botoes de login-->
+        <section class="area-de-login"> <!--seção para os botoes de login-->
             <div class="botoesdelogin">
                 <button><a href="pagina_login.html">Entrar</a></button>
                 <button><a href="pagina_cadastro.html">Cadastre-se</a></button>
             </div>
+        </section>
+        
+        <section class="Lembrar"> <!--seção para os botoes de lembrar-me e esqueci minha senha -->
             <div class="Lembrar">
                 <input type="checkbox" id="check">
                 <label for="check">Lembrar de mim</label>
@@ -22,6 +25,9 @@
         </section>
 
         <section class="menu_hamburg"> <!--menu principal sob o logo da game mania com todas as categorias e divisões de produtos-->
+            <a href="#">
+                <img src="/Imagens para projetos/Projeto Game mania Senai/GAME-MANIA-Photoroom.png" alt="logo_gamemania" class="logo_gamemania">
+            </a>
             <ul class="nav_list">
                 <li><a href="#">Inicio</a></li>
                 <li><a href="#">PCs</a></li>
@@ -37,8 +43,37 @@
         </section>
     </header>
     <main>
-        <section class="banner-carrossel">
-            
+        <section class="banner"> <!--seção do banner carrossel-->
+            <div class="slides">
+                <div class="slide active">
+                    <img src="imagem1.jpg" alt="Imagem 1">
+                </div>
+                <div class="slide">
+                    <img src="imagem2.jpg" alt="Imagem 2">
+                </div>
+                <div class="slide">
+                    <img src="imagem3.jpg" alt="Imagem 3">
+                </div>
+                <div class="slide">
+                    <img src="imagem4.jpg" alt="Imagem 4">
+                </div>
+                <div class="slide">
+                    <img src="imagem5.jpg" alt="Imagem 5">
+                </div>
+            </div>
+        <div class="botoes_carrossel"> <!--botoes do carrossel pra frente e pra tras-->
+            <button class="prev" onclick="changeSlide(-1)">&#10094;</button>
+            <button class="next" onclick="changeSlide(1)">&#10095;</button>
+        </div>
+        </section>
+        <script> src="script.js"</script>
+        <section class="info_loja">
+            <div>
+                <h1>VISITE NOSSAS REDES SOCIAIS OU ENTRE EM CONTATO PELO E-MAIL/WHATSAPP</h1>
+                <h4>e-mail: exemplo@gamemania.com</h4>
+                <h4>tel: (XX) XXXXX-XXXXX</h4>
+                <h4>endereço: rua dos bobos N 0</h4>
+            </div>
         </section>
     </main>
 </body>

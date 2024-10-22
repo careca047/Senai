@@ -1,12 +1,87 @@
+body {
+    background-color: antiquewhite;
+    color: black;
+    font-family: sans-serif;
+
+    .botoesdelogin {
+        font-family: sans-serif;
+        width: fit-content;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        padding: 5px;
+        gap: 4px;
+        background-color: black;
+    }
+    .barra_pesquisa {
+        border: 8px;
+        border-radius: 20px;
+    }
+    ::placeholder {
+        background-color: antiquewhite;
+        color: black;
+    }
+    a {
+        color: black;
+        text-decoration: none;
+    }
+    a:visited {
+        color: purple;
+        text-decoration: none;
+    }
+    .logo_gamemania {
+        width: 200px;
+        height: auto;
+    }
+    .info_loja {
+        text-align: end;
+        line-height: 0.9;
+    }
+    .banner {
+        position: center;
+        max-width: 600px;
+        margin: auto;
+        overflow: hidden;
+    }
+    .slides {
+        display: flex;
+        transition: transform 0.5s ease;
+    }
+    
+    .slide {
+        min-width: 100%; /* Faz o slide ocupar 100% da largura do carrossel */
+    }
+    
+    .slide img {
+        width: 100%; /* Imagem ocupa 100% do slide */
+        display: block; /* Remove espaço em branco abaixo da imagem */
+    }
+
+    .botoes_carrossel button {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        background-color: rgba(255, 255, 255, 0.5); /* Fundo semi-transparente */
+        border: none;
+        cursor: pointer;
+        font-size: 24px;
+    }
+    .prev {             /* botão pra esquerda */
+        left: 150px;
+        vertical-align: top;   
+    }
+    
+    .next {             /* botao pra direita */
+        right: 150px; 
+    }
+}
 /*
-perguntar pro Carmona o que fazer primeiro, editar o fundo da pagina, ou montar o layout
-verificar como edito, a largura da cor do fundo em um local especifico
-verificar como preencho o botao com outra cor
-como fazer espaços específicos do background terem cores diferentes
-como tirar o sublinhado do hiperlink
+como fazer espaços específicos do background terem cores diferentes (container?)
 verificar como posicionar as imagens no fundo
 
-proximos passos, montar o menu hamburguer em cima do logo da game mania
-                colocar a barra de pesquisa
-                colocar o banner e as paginas de scroll
+proximos passos:
+montar o menu hamburguer em cima do logo da game mania
+terminar os botoes do carrossel
+modificar os botoes de login pq do jeito que ta nao vai dar certo
 */
