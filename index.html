@@ -5,35 +5,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="/Imagens para projetos/Projeto Game mania Senai/GAME-MANIA-Photoroom.png">
     <title>Game Mania|Home</title>
-    <link rel="stylesheet" href="style.css"> <!--chamando o css--> 
+    <link rel="stylesheet" href="style.css"> 
 </head>
 <body>
     <header>
-        <section class="area-de-login"> <!--seção para os botoes de login-->
-            <div class="botoesdelogin">
-                <button><a href="login.html">Entrar</a></button>
-                <button><a href="cadastro.html">Cadastre-se</a></button>
-            </div>
-        </section>
+        <!--seção para os botoes de login-->
+        <div class="botoesdelogin">
+            <button><a href="login.html">Entrar</a></button>
+            <button><a href="cadastro.html">Cadastre-se</a></button>
+        </div>
         
-        <section class="Lembrar"> <!--seção para os botoes de lembrar-me e esqueci minha senha -->
-            <div class="Lembrar">
-                <input type="checkbox" id="check">
-                <label for="check">Lembrar de mim</label>
+        <!--seção para os botoes de lembrar-me e esqueci minha senha -->
+        <div class="Lembrar">
+            <input type="checkbox" id="check">
+            <label for="check">Lembrar de mim</label>
             </div>
-            <div class="Lembrar">
-                <a href="esqueceusuasenha.html">Esqueceu sua senha?</a>
-            </div>
-        </section>
-        <div>
+        <div class="Lembrar">
+            <a href="esqueceusuasenha.html">Esqueceu sua senha?</a>
+        </div>
+        
+        <div class="carrinho">
             <a href="#">
                 <img src="Imagens para projetos/Projeto Game mania Senai/lojinha_twitch.png" alt="carrinho">
             </a>
+        </div>
+        <div class="fav-list">
             <a href="#">
                 <img src="Imagens para projetos/Projeto Game mania Senai/coracao.png" alt="lista_desejos">
             </a>
         </div>
-        <section class="menu_hamburg"> <!--menu principal sob o logo da game mania com todas as categorias e divisões de produtos-->
+        <div class="menu"> <!--menu principal sob o logo da game mania com todas as categorias e divisões de produtos-->
             <a href="#">
                 <img src="/Imagens para projetos/Projeto Game mania Senai/GAME-MANIA-Photoroom.png" alt="logo_gamemania" class="logo_gamemania">
             </a>
@@ -45,11 +46,11 @@
                 <li><a href="#">Outros</a></li>
                 <li><a href="#">Contato</a></li>
             </ul>
-            <div class="barra_pesquisa">
-                <input type="text" placeholder="Busque aqui">
-                <a href="search_click" href="#">Busca</a>
-            </div>
-        </section>
+        </div>
+        <div class="barra_pesquisa">
+            <input type="text" placeholder="Busque aqui">
+            <a href="search_click" href="#">Busca</a>
+        </div>
     </header>
     <main>
         <section class="banner"> <!--seção do banner carrossel-->
@@ -95,7 +96,7 @@
         </section>
         <script> src="script.js"</script>
     </main>
-    <footer class="diretos_pagamentos">
+    <footer class="direitos_pagamentos">
         <img src="/Imagens para projetos/Projeto Game mania Senai/formas_pagamento.webp" alt="formas_pagamento">
         <img src="/Imagens para projetos/Projeto Game mania Senai/site seguro.png" alt="seguro">
         <p>&copy; Game Mania & Cia - CNPJ 12.345.678/0001-00. Todos os direitos reservados. 2024</p>
