@@ -294,7 +294,7 @@ a:hover {
 .btn-primary:hover,
 .btn-primary:focus,
 .btn-primary:active {
-	background: #cc3304;
+	background: #0075c4;
 }
 
 .header-navigation .dropdown-menu > li:first-child {
@@ -306,7 +306,7 @@ a:hover {
 
 .del-goods:hover,
 .add-goods:hover {
-	background-color: #E94D1C;
+	background-color: #0075c4;
 }
 
 .sidebar a:hover > .fa-angle-down {
@@ -320,16 +320,16 @@ a:hover {
 }
 
 .front-skills .progress-bar {
-  background: #EF4D2E;
+	background: #EF4D2E;
 }
 
 .service-box-v1:hover {
-  background: #d73d04;
+	background: #d73d04;
 }
 
 .header .mobi-toggler:hover {
-  background-color: #e34f00;
-  border-color: #e34f00;
+	background-color: #e34f00;
+	border-color: #e34f00;
 }
 
 @media (max-width: 1024px) {
@@ -341,14 +341,14 @@ a:hover {
 }
 
 .faq-tabbable {
-  border-left: solid 2px #e44f00;
+	border-left: solid 2px #e44f00;
 }
 .faq-tabbable li:hover a,
 .faq-tabbable li.active a{
-  background: #e44f00;
+	background: #e44f00;
 }
 .faq-tabbable li.active:after {
-  border-left: 6px solid #e44f00;
+	border-left: 6px solid #e44f00;
 }
 
 .mix-filter li:hover, .mix-filter li.active {
@@ -360,7 +360,7 @@ a:hover {
 }
 .mix-grid .mix a.mix-link, 
 .mix-grid .mix a.mix-preview {
-  background: #DB3A1B;
+	background: #DB3A1B;
 }
 .langs-block-others {
 	border-top: solid 2px #0075c4;
