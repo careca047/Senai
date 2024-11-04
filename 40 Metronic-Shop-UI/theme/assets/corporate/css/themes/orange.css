@@ -140,8 +140,8 @@ a:hover {
   color: #010030;
 }
 .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
-    background: #010030;
-    color: #fff;
+  background: #010030;
+  color: #fff;
 }
 .list-view-sorting a {
   background: #fff;
@@ -309,7 +309,7 @@ a:hover {
 
 .del-goods:hover,
 .add-goods:hover {
-  background-color: #E79E36;
+  background-color: #0075c4;
 }
 
 .sidebar a:hover > .fa-angle-down {

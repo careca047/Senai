@@ -73,7 +73,7 @@ Header and header elements
 	margin: 0;
 }
 .ecommerce .header-navigation > ul > li > a {
-	color: #3d3d3d;
+	color: #fff;
 	padding: 34px 12px 32px;
 }
 .ecommerce .header-navigation ul > li.active > a,
@@ -155,7 +155,7 @@ Header and header elements
 }
 .top-cart-info {
 	background: #010030;
-	color: #595f65;
+	color: #fff;
 	border: solid 1px #ececec;
 	border-radius: 16px !important;
 	float: left;
@@ -418,7 +418,7 @@ Header and header elements
 	color: #010030;
 }
 .pi-price {
-	color: #e84d1c;
+	color: #0075c4;
 	font: 18px 'PT Sans Narrow', sans-serif;
 	float: left;
 	padding-top: 1px;
@@ -483,7 +483,7 @@ Header and header elements
 .goods-page-total strong,
 .checkout-price strong,
 .checkout-total strong {
-	color: #e84d1c;
+	color: #0075c4;
 	font-size: 21px;
 	font-weight: normal;
 }
@@ -506,7 +506,7 @@ Header and header elements
 }
 .goods-data a,
 .checkout-page .checkout-description a {
-	color: #e6400c;
+	color: #0075c4;
 }
 .goods-page-description em,
 .checkout-description em {
@@ -754,7 +754,7 @@ div.radio.disabled span.checked, div.radio.disabled.active span.checked {
 	margin: 0;
 }
 .compare-item strong {
-	color: #E84D1C;
+	color: #0075c4;
     font-size: 21px;
     font-weight: normal;
 }
@@ -883,7 +883,7 @@ div.radio.disabled span.checked, div.radio.disabled.active span.checked {
 }
 .sidebar-products .price {
 	margin-left: 80px;
-    color: #E84D1C;
+    color: #0075c4;
     font: 16px 'PT Sans Narrow', sans-serif;
 }
 
@@ -1062,7 +1062,7 @@ table .product-quantity .input-group {
 	top: 2px;
 }
 .product-page .review a {
-	color: #e6400c;
+	color: #0075c4;
 }
 .product-page .social-icons li a {
 	background-position: 0 -38px;
