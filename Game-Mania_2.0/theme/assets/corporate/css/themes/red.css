@@ -35,29 +35,29 @@ a:hover {
 	color: #0075c4;
 }
 .content-page .link, .content-page .link:hover, .content-page .link:active {
-	color: #E02222;
+	color: #0075c4;
 }
 .page-404 .number,
 .page-500 .number {
 	color: #E02222;
 }
 .content-form-page a:hover {
-	color: #E02222;
+	color: #0075c4;
 }
 .quote-v1 a.btn-transparent:hover {
-	background: #E02222;
+	background: #0075c4;
 }
 .recent-work h2 a:hover {
-	color: #E02222;
+	color: #0075c4;
 }
 .recent-work .recent-work-item .fa:hover {
-	color: #E02222;
+	color: #0075c4;
 }
 .our-clients h2 a:hover {
-	color: #E02222;
+	color: #0075c4;
 }
 .front-team h3 strong {
-	color: #E02222;
+	color: #0075c4;
 }
 .ecommerce .header-navigation ul > li.active > a,
 .ecommerce .header-navigation ul > li > a:hover,
@@ -71,7 +71,7 @@ a:hover {
 	color: #0075c4;
 }
 .checkout-page a:hover {
-	color: #E02222;
+	color: #0075c4;
 }
 
 
@@ -157,11 +157,11 @@ a:hover {
 	background: #0075c4;
 }
 .steps-block ::-moz-selection {
-	color: #e45000;
+	color: #0075c4;
 	background: #fff;
 }
 .steps-block ::selection {
-	color: #e45000;
+	color: #0075c4;
 	background: #fff;
 }
 
@@ -320,23 +320,23 @@ a:hover {
 }
 
 .front-skills .progress-bar {
-	background: #EF4D2E;
+	background: #0075c4;
 }
 
 .service-box-v1:hover {
-	background: #d73d04;
+	background: #0075c4;
 }
 
 .header .mobi-toggler:hover {
-	background-color: #e34f00;
-	border-color: #e34f00;
+	background-color: #0075c4;
+	border-color: #0075c4;
 }
 
 @media (max-width: 1024px) {
 	.header .header-navigation li > a:hover,
 	.header .header-navigation li.active > a,
 	.header .header-navigation li.open > a:hover {
-		color: #dd4632 !important;
+		color: #0075c4 !important;
 	}
 }
 
@@ -352,15 +352,15 @@ a:hover {
 }
 
 .mix-filter li:hover, .mix-filter li.active {
-    background: #e44f00;
+    background: #0075c4;
     color: #fff;
 }
 .mix-grid .mix .mix-details {
-	background: #e44f00;
+	background: #0075c4;
 }
 .mix-grid .mix a.mix-link, 
 .mix-grid .mix a.mix-preview {
-	background: #DB3A1B;
+	background: #0075c4;
 }
 .langs-block-others {
 	border-top: solid 2px #0075c4;

@@ -476,8 +476,8 @@ body.page-header-fixed {
 	display: none;
 }
 .header .mobi-toggler:hover {
-	background: #e34f00 url(../img/icons/toggler.png) no-repeat 6px -28px;
-	border-color: #e34f00;
+	background: #0075c4 url(../img/icons/toggler.png) no-repeat 6px -28px;
+	border-color: #0075c4;
 	color: #fff;
 }
 
@@ -755,7 +755,7 @@ body.page-header-fixed {
 .page-header-fixed .header-navigation > ul > li > a,
 .page-header-fixed .header-navigation li.menu-search,
 .page-header-fixed .top-cart-block {
- 	transition: all 0.1s ease;
+	transition: all 0.1s ease;
 	-o-transition: all 0.1s ease;
 	-ms-transition: all 0.1s ease;
 	-moz-transition: all 0.1s ease;
@@ -873,7 +873,7 @@ Sidebar
 	color: #3E4D5C;
 }
 .sidebar a:hover {
-	color: #E02222;
+	color: #0075c4;
 }
  .sidebar-menu a {
 	display: block;
@@ -892,7 +892,7 @@ Sidebar
     color: #3E4D5C;
 }
 .sidebar .dropdown.open .dropdown-toggle:hover {
-	color: #E02222;
+	color: #0075c4;
 }
 .sidebar .dropup.open > .dropdown-toggle, .dropdown.open > .dropdown-toggle {
     border-color: none !important;
@@ -950,7 +950,7 @@ Sidebar
 }
 .sidebar-menu .dropdown-menu li > a:hover, .sidebar-menu .dropdown-menu li > a:focus, .sidebar-menu li.active > a, .sidebar-menu li.active > a:hover {
 	background: none !important;
-	color: #E02222;
+	color: #0075c4;
 }
 .sidebar .dropdown-menu > li > a .fa-angle-down {
 	position: absolute;
@@ -1028,11 +1028,11 @@ steps block and steps block elements
 	padding: 30px 0;	
 }
 .steps-block ::-moz-selection {
-	color: #e45000;
+	color: #0075c4;
 	background: #fff;
 }
 .steps-block ::selection {
-	color: #e45000;
+	color: #0075c4;
 	background: #fff;
 }
 .steps-block-gray {
@@ -1206,10 +1206,10 @@ steps block and steps block elements
 }
 .content-page a:hover, 
 .sidebar2 a:hover {
-	color: #E02222;
+	color: #0075c4;
 }
 .content-page .link, .content-page .link:hover, .content-page .link:active {
-	color: #E02222;
+	color: #0075c4;
 }
 .content-page h2, 
 .content-page h3, 
