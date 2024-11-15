@@ -304,7 +304,7 @@ a:hover {
     border-top: 2px solid #010030;
 }
 .front-steps-wrapper .front-step1:after {
-    border-left: 15px solid #E79E36;
+    border-left: 15px solid #0075c4;
 }
 
 .del-goods:hover,
@@ -320,7 +320,7 @@ a:hover {
 }
 
 .top-cart-content {
-  border-top: solid 2px #E79E36;
+  border-top: solid 2px #0075c4;
 }
 
 .front-skills .progress-bar {
@@ -328,7 +328,7 @@ a:hover {
 }
 
 .service-box-v1:hover {
-  background: #E79E36;
+  background: #0075c4;
 }
 
 .header .mobi-toggler:hover {

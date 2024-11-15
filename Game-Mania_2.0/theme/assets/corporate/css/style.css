@@ -508,12 +508,12 @@ body.page-header-fixed {
 .header-navigation ul > li.open > a,
 .header-navigation ul > li.open > a:hover,
 .header-navigation ul > li.open > a:focus {
-	color: #e02222;
+	color: #0075c4;
 	background: #fcfcfc;
 	text-decoration: none;
 }
 .header-navigation ul > li.active > a {
-	border-bottom: 2px solid #e64f00;
+	border-bottom: 2px solid #0075c4;
 }
 
 /* dropdown menu */

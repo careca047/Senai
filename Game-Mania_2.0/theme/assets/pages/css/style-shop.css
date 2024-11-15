@@ -91,7 +91,7 @@ Header and header elements
 	color: #fff;
 }
 .ecommerce .header-navigation ul > li.active > a {
-	/*border-bottom: 2px solid #E44F00;*/
+	border-bottom: 2px solid #0075c4;
 	border-bottom: none !important;
 }
 
@@ -297,7 +297,7 @@ Header and header elements
 	background: #010030 url(../../pages/img/icons/del-goods.png) no-repeat 50% 50%;
 }
 .add-goods {
-	background: #7bdd00 url(../../pages/img/icons/add-goods.png) no-repeat 50% 50%;
+	background: #010030 url(../../pages/img/icons/add-goods.png) no-repeat 50% 50%;
 }
 .add-goods:hover {
 	background: #010030 url(../../pages/img/icons/add-goods.png) no-repeat 50% 50%;
